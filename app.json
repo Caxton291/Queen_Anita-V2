@@ -1,7 +1,7 @@
 {
-    "name": "Queen_Anita-V2",
+    "name": "Caxton Derick",
     "description": "Simple WhatsApp Bot",
-    "logo": "https://i.imgur.com/H4qeXwa.jpeg",
+    "logo": "https://photos.app.goo.gl/pZfcgyUmBmgJ6ERy9",
     "keywords": ["DeeCeeXxx", "Anita-V2", "Queen_Anita"],
     "success_url": "/",
     "stack": "container",
@@ -9,7 +9,7 @@
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "Queen_Anita-V2",
+        "value": "Caxton Derick",
         "required": true
       },
   
@@ -20,8 +20,8 @@
       },
       "USER_IMAGES": {
         "description": "Menu Images",
-        "value": "https://i.imgur.com/H4qeXwa.jpeg",
-        "required": false
+        "value": "https://photos.app.goo.gl/pZfcgyUmBmgJ6ERy9",
+        "required": true
       },
   
       "GOODBYE": {
@@ -35,17 +35,17 @@
       },
       "THUMB_IMAGE": {
         "description": "Thumbnail",
-        "value": "https://i.imgur.com/H4qeXwa.jpeg"
+        "value": "https://photos.app.goo.gl/pZfcgyUmBmgJ6ERy9"
       },
       "BOT_NAME": {
         "description": " NAME FOR BOT",
-        "required": false,
-        "value": "Queen_Anita-V2"
+        "required": true,
+        "value": "Derick Caxton"
       },
       "TZ": {
         "description": "Put TIME_ZONE according to your location",
-        "required": false,
-        "value": "Africa/Lagos"
+        "required": truee,
+        "value": "Africa/Nairobi"
       },
       "READ_COMMAND": {
         "description": " Read bot cmds",
@@ -59,8 +59,8 @@
       },
       "AUTO_SAVE_STATUS": {
         "description": " Auto save whatsapp status",
-        "required": false,
-        "value": "false"
+        "required": truee,
+        "value": "true"
       },
       "HEROKU_API_KEY": {
         "description": "Put Your Heroku Api Key Here",
@@ -74,12 +74,12 @@
       },
       "WAPRESENCE": {
         "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
-        "required": false,
-        "value": "unavailable"
+        "required": true,
+        "value": "available"
       },
       "AUTO_READ_STATUS": {
         "description": "Fill the value true if you want bot view your Statuses.",
-        "required": false,
+        "required": true,
         "value": "true"
       },
       "MSGS_IN_LOG": {
@@ -103,25 +103,25 @@
       },
       "OWNER_NUMBER": {
         "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-        "value": "2349066528353"
+        "value": "254798033844"
       },
       "SESSION_ID": {
         "description": "put your SESSION_ID here.",
-        "value": ""
+        "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVUg5b2M3d083N3dRdDZTbDZiL3NZdUJ0MmNpSHNUMkdhdzNlZUQrcmlWTT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUWdWWEkxZXlaY1AzSmkzVTRPYXVnWUF3QnQxYWxDVXRuV2FZK2JkcWVRQT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJJQjNWYUJTSGtsVWhEWDVjV2hSSkxJd2J5MnU5VG9TTjhtSS96azdZYUc0PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJoRjZEL2JvSVpCVTZ2TFU0TXRyb2JUV0NQbEI3UDQ1NUpESVFkeVJhM3dBPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImlMTEY4U2o4UjB3K3hSTjF4RVNhL2VucDBvYlpQMkRMTHE5dWIyTXU0bU09In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImdORWFVbUtNL3FWZ2JTUXdzNEw4Z3M5NlJTeE9ucXdDM1dhUldETk1vVHM9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidUlJTnRJZzgraFYwZWViTm9ySnNiRjlDYlE5S3dXZzFybE9aMUttMURIRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ3ZXZ2UrOUllSUQxZ3lCOHR2SzVFN1VqRU8welkzRHNvN1EzS3lPNThuRT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlRSN1dxeC94dDRxcExCRlpGZEJmaTN0MVF2cEFMSE1XT0RRNVNjaU5yUVhQbTlXUHFhQkVlUmdXbFQ0bEdQQ0thY1dHeEJ1WmE2NzlkRERKY3FyQWlBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjUzLCJhZHZTZWNyZXRLZXkiOiJkQ2g5bUlTR2Fzb01jSGQ2MFdOaU04K2NUVHdmcG9sL2VtWktJWkZsdkxNPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJBNjNrZmZDdlRpNlZtLUI3U0lITnVnIiwicGhvbmVJZCI6ImY2OTY1ZTMzLTBiNzMtNDI5My1iZjQ3LTRmNWIyZmFlYzE3MiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJBbVVuUW5VWTlPTytWN3MvSGExdlYrV2J1MWs9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRHRqTjRyWEVOa2tQVER0dnU3WU5nd2FybS9JPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IlAyRFg1U0hNIiwibWUiOnsiaWQiOiIyNTQ3OTgwMzM4NDQ6MzRAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ01hVjI3QUZFT2Z3aXJVR0dBTWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IkFvOERlTzRDN3JLMkh4L3k4WHRHWkd2eWNjaFVnU09mVGNKTHlvdFlzRDQ9IiwiYWNjb3VudFNpZ25hdHVyZSI6ImRXc0I5dUc0dGpVK2FlQlEzNnJpQldERlIvb0dIRnJBVHFzdzVrc29HNEoyVGVhN3BjdVhkT0toL1EvbXlPVU03SXBzdXJZQ1B5VWk5WklRUnhKRURRPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJYWThoQUg5UHRuOXIzckNWblJqWC9VVE15TWZHQVhRYVltYjVrVEREbnp6VE9BZ240RUt4a3lIK2RodnR2c0QrazZaWFpZM0lScmNpZEJyR3VyL3Jpdz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1NDc5ODAzMzg0NDozNEBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJRS1BBM2p1QXU2eXRoOGY4dkY3Um1ScjhuSElWSUVqbjAzQ1M4cUxXTEErIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzIxOTQwMDg0fQ=="
       },
       "MODE": {
         "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-        "value": "public"
+        "value": "private"
       },
       "PACK_NAME": {
         "description": "Put Sticker Pack_Name.",
-        "value": "Queen_Anita-V2",
-        "required": false
+        "value": "Caxton",
+        "required": true
       },
       "PACK_AUTHER": {
         "description": "Put Sticker Author_Name.",
-        "value": "A N I T A",
-        "required": false
+        "value": "Caxton",
+        "required": true
       }
     },
     "addons": [{ "plan": "heroku-postgresql:basic" }],
